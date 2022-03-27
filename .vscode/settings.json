@@ -1,3 +1,5 @@
 {
-    "dart.flutterSdkPath": "/Users/ajsb85/development/flutter"
+    "dart.flutterSdkPath": "/Users/ajsb85/development/flutter",
+    "remote.autoForwardPorts": true,
+  
 }

@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "build",
+        "type": "f5anything",
+        "request": "launch",
+        "command": "cd /workspaces/term-web/; flutter build web --web-renderer html --release --base-href \"/\"; sudo cp -R /workspaces/term-web/build/web/* /var/www/html/; sudo chown -R www-data:www-data /var/www/html/*",
+      }
+    ]
+}
